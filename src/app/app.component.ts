@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   currentPosition = 'Summary';
-  title = 'My-Personal-Page-' + this.currentPosition;
+  title = 'Ping-Shao-Shao' + this.currentPosition;
+  faShoppingCart = faShoppingCart;
 }
